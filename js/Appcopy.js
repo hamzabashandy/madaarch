@@ -1,5 +1,5 @@
 $(".clickcultural").click(function(){
-    $(".gallery, .barinfo").hide();
+    $(".gallery, .barinfo, .projecttype").hide();
     $(".win").load ("Projects.html .loadpage", function() {
     $('.loadpage').append('<link rel="stylesheet" href="css/thumbnail-gallery.css" type="text/css" />');
     $.getScript("js/App.js");
@@ -8,7 +8,7 @@ $(".clickcultural").click(function(){
 });
 
 $(".clickresidential").click(function(){
-    $(".gallery, .barinfo").hide();
+    $(".gallery, .barinfo, .projecttype").hide();
     $(".win").load ("Projects.html .loadpage", function() {
     $('.loadpage').append('<link rel="stylesheet" href="css/thumbnail-gallery.css" type="text/css" />');
     $.getScript("js/App.js");
@@ -17,7 +17,7 @@ $(".clickresidential").click(function(){
 });
 
 $(".clickadmin").click(function(){
-    $(".gallery, .barinfo").hide();
+    $(".gallery, .barinfo, .projecttype").hide();
     $(".win").load ("Projects.html .loadpage", function() {
     $('.loadpage').append('<link rel="stylesheet" href="css/thumbnail-gallery.css" type="text/css" />');
     $.getScript("js/App.js");
@@ -26,7 +26,7 @@ $(".clickadmin").click(function(){
 });
 
 $(".clickresorts").click(function(){
-    $(".gallery, .barinfo").hide();
+    $(".gallery, .barinfo, .projecttype").hide();
     $(".win").load ("Projects.html .loadpage", function() {
     $('.loadpage').append('<link rel="stylesheet" href="css/thumbnail-gallery.css" type="text/css" />');
     $.getScript("js/App.js");
@@ -35,7 +35,7 @@ $(".clickresorts").click(function(){
 });
 
 $(".clickpublic").click(function(){
-    $(".gallery, .barinfo").hide();
+    $(".gallery, .barinfo, .projecttype").hide();
     $(".win").load ("Projects.html .loadpage", function() {
     $('.loadpage').append('<link rel="stylesheet" href="css/thumbnail-gallery.css" type="text/css" />');
     $.getScript("js/App.js");
@@ -44,7 +44,7 @@ $(".clickpublic").click(function(){
 });
 
 $(".clickretail").click(function(){
-    $(".gallery, .barinfo").hide();
+    $(".gallery, .barinfo, .projecttype").hide();
     $(".win").load ("Projects.html .loadpage", function() {
     $('.loadpage').append('<link rel="stylesheet" href="css/thumbnail-gallery.css" type="text/css" />');
     $.getScript("js/App.js");
@@ -53,7 +53,7 @@ $(".clickretail").click(function(){
 });
 
 $(".clickrenovation").click(function(){
-    $(".gallery, .barinfo").hide();
+    $(".gallery, .barinfo, .projecttype").hide();
     $(".win").load ("Projects.html .loadpage", function() {
     $('.loadpage').append('<link rel="stylesheet" href="css/thumbnail-gallery.css" type="text/css" />');
     $.getScript("js/App.js");
